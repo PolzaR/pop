@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <header>
+        <input type="botton" id="user">User1</button>
+    </header>
+    <div>
+        <ul id="list">
+            <li>Second item</li>
+            <li>Third item</li>
+        </ul>
+    </div>
+    <button id="add">Add an element</button>
+    <script>
+        // const elem = document.createElement('li');
+        // elem.innerHTML = "First element";
+        // // list.appendChild(elem);
+        // list.insertBefore(elem, list.firstChild);
+        const addElem = function() {
+            const elem = document.createElement('li');
+            elem.innerHTML = "First element";
+            list.insertBefore(elem, list.firstChild);
+        };
+        add.addEventListener("click", addElem);
+        //function wrapper
+        // document.querySelector('div').addEventListener(click,(event)=>f(event,'div'));
+        const floatMenu = function() {
+            const menu = document.createElement('input');
+        };
+
+
+    </script>
+
+    
+</body>
+</html>
